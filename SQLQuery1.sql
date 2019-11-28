@@ -1,0 +1,16 @@
+﻿insert into rendelesek(bolt, termek, mennyiseg) values
+(1, 'tej', 5),
+(4, 'olyan izé, ami szokott lenni, de most nem látok', 1),
+(1, 'kenyér', 5),
+(2, 'fluxuskondenzátor', 3),
+(1, 'tojás M', 60),
+(2, 'konyharuha szett, kockás', 10),
+(4, 'ami a Barátokköztben volt az aszalon a Maricinál', 1),
+(3, 'tojás XL', 60),
+(1, 'fagyöngy ízű szalámi', 20),
+(1, 'tojás M', 20),
+(3, 'tojás XL', 60),
+(4, 'az a cucc, amit az ablakra kell tenni', 1),
+(3, 'tojás M', 40),
+(2, 'szalámi ízű fagyöngy', 12),
+(4, 'váratlan árucikk a csomagolóterületről', 99);

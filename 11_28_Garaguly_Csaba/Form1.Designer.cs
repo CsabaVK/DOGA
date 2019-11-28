@@ -47,6 +47,11 @@
             // 
             // dtg_adat
             // 
+            this.dtg_adat.AllowUserToAddRows = false;
+            this.dtg_adat.AllowUserToDeleteRows = false;
+            this.dtg_adat.AllowUserToResizeColumns = false;
+            this.dtg_adat.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtg_adat.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtg_adat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_adat.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.id,
