@@ -50,6 +50,7 @@
             this.dtg_adat.AllowUserToAddRows = false;
             this.dtg_adat.AllowUserToDeleteRows = false;
             this.dtg_adat.AllowUserToResizeColumns = false;
+            this.dtg_adat.AllowUserToResizeRows = false;
             this.dtg_adat.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtg_adat.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dtg_adat.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -59,6 +60,8 @@
             this.cim});
             this.dtg_adat.Location = new System.Drawing.Point(12, 12);
             this.dtg_adat.Name = "dtg_adat";
+            this.dtg_adat.RowHeadersVisible = false;
+            this.dtg_adat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtg_adat.Size = new System.Drawing.Size(704, 200);
             this.dtg_adat.TabIndex = 0;
             // 
@@ -69,6 +72,7 @@
             this.richTextBox1.Size = new System.Drawing.Size(379, 96);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.RichTextBox1_TextChanged);
             // 
             // label1
             // 
@@ -85,6 +89,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // label4
             // 
@@ -147,8 +152,11 @@
             // 
             // id
             // 
+            this.id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.id.FillWeight = 20F;
             this.id.HeaderText = "ID";
             this.id.Name = "id";
+            this.id.Width = 43;
             // 
             // nev
             // 
@@ -157,6 +165,7 @@
             // 
             // cim
             // 
+            this.cim.FillWeight = 200F;
             this.cim.HeaderText = "Cím";
             this.cim.Name = "cim";
             // 
